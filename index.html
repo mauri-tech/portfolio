@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/Styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Portafolio</title>
+</head>
+<body>
+  <div class="landing-page">
+    <div class="nav-bar">
+      <a href="#aboutme">🔥 About me </a>
+      <a href="#skills">⚡️ Skills</a>
+      <a href="#Projects">🗂 Projects</a>
+      <a href="#contact">📞 Contacto </a>
+    </div>
+      <section class="hero-banner">
+      <h1>Mauricio's portfolio</h1>
+      </section>
+   <!-- Aqui va la informacion del usuario #1 -->   
+    <section class="contenido">
+      <h1 class="titulos" id="aboutme"> </h1>
+     <div class="boxes">
+       <div class="box">
+        <h2>About me 🧬 </h2>
+        <p> <i> "Coding is in my DNA" </i> </p>
+        <img class="box-image" id="mau" src="/assets/Images/mau-ai.jpeg" alt="Foto creada con AI">
+      </div>
+    <div class="box">
+        <h2>Web Developer</h2>
+        <p> 
+          My name is Mauricio Treviño, I am from Monterrey, Nuevo León, Mexico.
+          <br>
+          <br>
+          <br>I am a student of the Tecnologico de Monterrey and I am learning the basics of programming
+        </p>
+        <br>
+        <h2>Bootcamp progress [6%] </h2>
+        <progress id="file" max="100" value="5"> 6% </progress>
+        <br>
+        <h3>My contact links </h3>
+        <a href="www.github.com" class="fa fa-github"></a>
+        <a href="www.twitter.com" class="fa fa-twitter"></a>      
+    </div>
+    </div>
+    </section>
+
+<!-- Aqui van los skills #2  -->
+<section class="contenido">
+    <h1 class="titulos" id="skills"> My Skills </h1>
+      <div class="boxes">
+        <div class="box">
+        <h2>HTML 🏗️ </h2>
+        <p> I know how to create the structure of a succesful website</p>
+        <img class="box-image" src="/assets/Images/HTML.png" alt="logotipo HTML">
+        <h3>HTML Knowledge [79%] </h3>
+        <progress id="file" max="100" value="79"> 79% </progress>
+        </div>
+    <div class="box">
+        <h2>CSS 🎨</h2>
+        <p> The design is the face of the Bussines, i am learning to create exceptional UX/UI in my projects </p>
+        <img class="box-image" src="/assets/Images/CSS.png" alt="logotipo css">
+        <h3>CSS Knowledge [32%] </h3>
+        <progress id="file" max="100" value="32"> 32% </progress>
+    </div>
+    <div class="box">
+      <h2>JavaScript 🦾</h2>
+      <p> El funcionamiento basico de nuestro codigo, aqui es donde la magia sucede </p>
+      <img class="box-image" src="/assets/Images/js.png" alt="logotipo js">
+      <h3>JS Experience[4%] </h3>
+      <progress id="file" max="100" value="4"> 4% </progress>
+    </div> 
+    </div>
+  </section>
+
+<!-- Projectos #3 -->
+<section class="Projects">
+  <section class="contenido">
+    <h1 class="titulos" id="Projects"> My Work (fake) 🪄</h1>
+    <h3> Note: I will add my real projects as soon as possible</h3>
+  <div class="boxes">
+    <div class="box">
+      <h2>Google Founding Team</h2>
+      <p> Junto con Larry Page creamos google en los 90's, uno de los primeros buscadores en la historia, lo creamos mientras comiamos en el Chilli's de Leones </p>
+      <img class="box-image" src="/assets/Images/logo-Google.png" alt="Logo de gogoel">
+    </div>
+  <div class="box">
+      <h2>Yahoo - New Bussines 🎨</h2>
+      <p> Como fundador de Google siempre tuve rivalidad, pero ayudamos a evitar la bancarrota de yahoo.com con servicios de consultoria </p>
+      <img class="box-image" src="/assets/Images/logo-Yahoo.png" alt="Logo de yahoo">
+  </div>
+  <div class="box">
+    <h2>Ares - p2p Share </h2>
+    <p> Antes de que existiera Spotify, ayudamos a que la gente puidera compartir musica a 48kb/s en los 2000 </p>
+    <img class="box-image" src="/assets/Images/ares-logo.png" alt="Logo Ares (2000's) ">
+  </div> 
+  </div>
+</section>
+</section>
+<form class="form-container" id="contact">
+  <h2> Contact 📞  </h2>
+  <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+  <label for="phone">Tel:</label><br>
+    <input type="tel" id="phone" name="phone"><br>
+  <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+  <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5"></textarea><br>
+    <input type="submit" value="Enviar">
+</body>
+</html>
