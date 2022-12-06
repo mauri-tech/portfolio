@@ -62,7 +62,7 @@ body {
   }
 .hero-banner {
     height: 70rem;
-    background-image: url(/assets/Images/herobanner.jpeg);
+    background-image: url(./assets/Images/herobanner.jpeg);
     background-size: cover;
     display: flex;
     align-items: center;
